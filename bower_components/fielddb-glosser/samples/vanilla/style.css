@@ -1,0 +1,167 @@
+table {
+  width: 100%;
+}
+
+td {
+  width: 50%;
+  border: 1px solid rgba(255,255,255,50);
+  border-radius: 5px;
+}
+
+tr {
+  vertical-align: top;
+}
+
+h2{
+  font-weight: 300 !important;
+}
+
+.lexicon ul{
+  list-style-type: none;
+  clear: both;
+  margin: auto;
+  /*border: 1px solid white !important;*/
+}
+
+.lexicon ul li {
+  float: left;
+  padding: 0.5em;
+  margin: 0.5em;
+  border:2px solid black !important;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  width: 20em;
+  /* make scrollable and same size */
+  height: 10em !important;
+  overflow: auto !important;
+}
+
+.node_details_tooltip {
+  padding: 0.5em;
+  margin: 0.5em;
+  border:2px solid black !important;
+  border-radius: 10px;
+  width: 20em;
+  background-color: #ccc;
+  opacity: 0.8;
+}
+
+.lexiconJSON{
+  width: 100%;
+  resize: auto !important;
+  height: 20em;
+}
+
+.lexicon .discussion {
+ font-style: italic;
+ margin-right: 0.2em;
+}
+
+.lexicon .utteranceContext {
+ font-style: italic;
+}
+
+.lexicon .headword {
+  font-weight: bold;
+  padding-right: 0.2em;
+}
+
+.lexicon dl {
+ width: 100%;
+ overflow: hidden;
+}
+
+/*
+dd:nth-of-type(odd) {   background-color: #333}
+dl:nth-of-type(odd) {  background-color: #ccc }​*/
+
+
+.lexicon dt span{
+  padding: 0;
+  margin: 0;
+  float:left;
+  width:40%;
+  color: #ccc;
+}
+
+.lexicon dd span{
+  padding: 0;
+  margin: 0;
+  float:left;
+  width:55%;
+}
+
+.utterance {
+ color: #ccc;
+ background-color: #323245;
+}
+
+.morphemes {
+ color: #ccc;
+ background-color: #353535;
+}
+
+.gloss {
+ color: #ccfcfc;
+ background-color: #232323;
+}
+
+.confidence {
+ color: #999;
+ background-color: #454545;
+}
+
+[contenteditable="true"]:focus{
+  color: #000;
+  background-color: #fff;
+}
+
+/* D3 force directed graph */
+circle.node {
+	stroke: #fff;
+	stroke-width: 1.5px;
+}
+
+line.link {
+	stroke-opacity: .6;
+}
+
+
+.link {
+  fill: none;
+  stroke: #666;
+  stroke-width: 1.5px;
+}
+
+#licensing {
+  fill: green;
+}
+
+.link.licensing {
+  stroke: green;
+}
+
+.link.resolved {
+  stroke-dasharray: 0,2 1;
+}
+
+circle {
+  fill: #ccc;
+  stroke: #333;
+  stroke-width: 1.5px;
+}
+/*
+text {
+  color: #fff;
+  background-color: #333;
+  opacity: .5;
+  }*/
+
+  .distance2{
+    opacity: 0.2;
+  }
+
+
+  .distance3{
+    opacity: 0.1;
+  }

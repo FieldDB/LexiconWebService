@@ -12,7 +12,6 @@ config/local.json
 
 # Ignore natural lib
 public/libs/natural/
-bower_components
 
 .wav
 audio_stimuli

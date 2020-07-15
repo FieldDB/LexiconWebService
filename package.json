@@ -1,6 +1,6 @@
 {
   "name": "lexicon-elasticsearch",
-  "version": "4.46.12",
+  "version": "5.7.13",
   "description": "a lexicon web service with analyzers for a few languages and an elasticsearch wrapper",
   "homepage": "https://github.com/FieldDB/FieldDB/issues/milestones?state=closed",
   "repository": {
